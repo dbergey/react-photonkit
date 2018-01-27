@@ -1307,7 +1307,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			key: 'componentWillUnmount',
 			value: function componentWillUnmount() {
 				if (this.sortable) {
-					this.sortable.destory();
+					this.sortable.destroy();
 					this.sortable = null;
 				}
 			}
@@ -2780,7 +2780,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			key: 'componentWillUnmount',
 			value: function componentWillUnmount() {
 				if (this.sortable) {
-					this.sortable.destory();
+					this.sortable.destroy();
 					this.sortable = null;
 				}
 			}
@@ -3459,7 +3459,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			key: 'componentWillUnmount',
 			value: function componentWillUnmount() {
 				if (this.sortable) {
-					this.sortable.destory();
+					this.sortable.destroy();
 					this.sortable = null;
 				}
 			}
